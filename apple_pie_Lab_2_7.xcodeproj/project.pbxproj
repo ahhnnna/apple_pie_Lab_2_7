@@ -12,6 +12,7 @@
 		9179C6F222137F1700F61B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9179C6F022137F1700F61B36 /* Main.storyboard */; };
 		9179C6F422137F2100F61B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9179C6F322137F2100F61B36 /* Assets.xcassets */; };
 		9179C6F722137F2100F61B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9179C6F522137F2100F61B36 /* LaunchScreen.storyboard */; };
+		9179C6FF22138B3B00F61B36 /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C6FE22138B3B00F61B36 /* game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9179C6F322137F2100F61B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9179C6F622137F2100F61B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9179C6F822137F2100F61B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9179C6FE22138B3B00F61B36 /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9179C6EC22137F1700F61B36 /* AppDelegate.swift */,
 				9179C6EE22137F1700F61B36 /* ViewController.swift */,
+				9179C6FE22138B3B00F61B36 /* game.swift */,
 				9179C6F022137F1700F61B36 /* Main.storyboard */,
 				9179C6F322137F2100F61B36 /* Assets.xcassets */,
 				9179C6F522137F2100F61B36 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9179C6FF22138B3B00F61B36 /* game.swift in Sources */,
 				9179C6EF22137F1700F61B36 /* ViewController.swift in Sources */,
 				9179C6ED22137F1700F61B36 /* AppDelegate.swift in Sources */,
 			);
@@ -289,10 +293,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.annalopez.apple-pie-Lab-2-7";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annalopez.apple-pie-Lab-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -307,10 +311,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.annalopez.apple-pie-Lab-2-7";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.annalopez.apple-pie-Lab-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
